@@ -7,3 +7,4 @@ A simple Machine Learning model built to predict the approximate number of the s
 -   The training, data data_daily.csv, is provided by Fetch. The data has 1 feature variable "# Date" and a dependent variable "Receipt_Count".
 -   There are 365 data points representing number of the observed scanned receipts each day for the year 2021
 -   Here is a visualization of the data
+    ![Display Image](https://github.com/andyyhy/receipt_count_prediction/blob/main/results/data_daily_vis.png)

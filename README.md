@@ -19,14 +19,31 @@ A simple machine learning model and app built to predict the approximate number 
 -   `model/train_model.py`: The main Python script that defines the model, loads data, trains the model, and validates its performance.s
 -   `results`: Folder containing visualizations
 
-## Running Locally
+## Running The Application
+
+The application will be accessible at http://localhost:8000 in your web browser.
+
+### Running Locally
 
 Make sure you have Python 3.11+ installed on your system. You can install the necessary dependencies by running:
 `pip install -r requirements.txt`
 
 To start the web application, navigate to the project directory and run:
 `python app/app.py`
-The application will be accessible at http://localhost:8000 in your web browser.
+
+### Running With Dockerfile Locally:
+
+Make sure you have docker installed
+
+-   Docker build: `docker build -t username/imagename:v1.0 .`
+-   Docker run: `docker container run -d -p 8000:8000 -p 8001:8001 username/imagename:v1.0`
+
+### Running With Docker Hub:
+
+Make sure you have docker installed
+
+-   Docker Pull: `docker pull andyyhy/receipt_count_prediction:latest`
+-   Docker run: `docker container run -d -p 8000:8000 -p 8001:8001 andyyhy/receipt_count_prediction:latest`
 
 ### Data
 

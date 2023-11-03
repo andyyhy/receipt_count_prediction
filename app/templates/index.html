@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>ML Model Inference</title>
+		<link rel="stylesheet" href="static/styles.css" />
+		<!-- Plotly.js -->
+		<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<h1>Receipt Count Prediction</h1>
+			</header>
+
+			<div class="form-container">
+				<div class="form-group">
+					<label for="start-date">Start Date:</label>
+					<input
+						type="date"
+						id="start-date"
+						name="start_date"
+						value="2022-01-01"
+						required
+					/>
+				</div>
+				<div class="form-group">
+					<label for="end-date">End Date:</label>
+					<input
+						type="date"
+						id="end-date"
+						name="end_date"
+						value="2022-12-31"
+						required
+					/>
+				</div>
+
+				<div class="submit-button">
+					<input id="submit-button" type="submit" value="Submit" />
+				</div>
+			</div>
+
+			<section id="plot-section">
+				<div id="plot"></div>
+			</section>
+
+			<div id="predicted-monthly-totals">
+				<h2>Predicted Monthly Total Receipts</h2>
+				<ul id="monthly-totals-list">
+					<!-- List items will be added here dynamically using JavaScript -->
+				</ul>
+			</div>
+		</div>
+
+		<script src="static/js/plot.js"></script>
+	</body>
+</html>

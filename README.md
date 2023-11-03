@@ -34,11 +34,13 @@ Visualization of the model prediction and the training set data:
 ## Validation
 
 After training, the model is validated on the test set. The validation loss is computed, and the results are plotted showing both the actual and predicted receipt counts over time.
+Visualization of the model prediction and the test set data:
+![Display Image](https://github.com/andyyhy/receipt_count_prediction/blob/main/results/test_data.png)
 
 ## Results
 
 Below are the predicted approximate number of scanned receipts for each month of 2022:
-| Date | Receipts |
+| Month | # of Receipts |
 |------------|--------------|
 | 2022-01 | 316,690,180 |
 | 2022-02 | 291,861,020 |
@@ -52,9 +54,6 @@ Below are the predicted approximate number of scanned receipts for each month of
 | 2022-10 | 376,302,720 |
 | 2022-11 | 370,609,100 |
 | 2022-12 | 389,622,750 |
-
-Visualization of the model prediction and the test set data:
-![Display Image](https://github.com/andyyhy/receipt_count_prediction/blob/main/results/test_data.png)
 
 ## Running The Application
 

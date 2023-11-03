@@ -31,9 +31,27 @@ The training process involves the following steps:
 Visualization of the model prediction and the training set data:
 ![Display Image](https://github.com/andyyhy/receipt_count_prediction/blob/main/results/training_data.png)
 
-## Validation and Results
+## Validation
 
 After training, the model is validated on the test set. The validation loss is computed, and the results are plotted showing both the actual and predicted receipt counts over time.
+
+## Results
+
+Below are the predicted approximate number of scanned receipts for each month of 2022:
+| Date | Receipts |
+|------------|--------------|
+| 2022-01 | 316,690,180 |
+| 2022-02 | 291,861,020 |
+| 2022-03 | 329,573,470 |
+| 2022-04 | 325,387,260 |
+| 2022-05 | 342,893,500 |
+| 2022-06 | 338,277,600 |
+| 2022-07 | 356,213,500 |
+| 2022-08 | 362,982,720 |
+| 2022-09 | 357,718,750 |
+| 2022-10 | 376,302,720 |
+| 2022-11 | 370,609,100 |
+| 2022-12 | 389,622,750 |
 
 Visualization of the model prediction and the test set data:
 ![Display Image](https://github.com/andyyhy/receipt_count_prediction/blob/main/results/test_data.png)

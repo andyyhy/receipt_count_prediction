@@ -38,12 +38,9 @@ After training, the model is validated on the test set. The validation loss is c
 Visualization of the model prediction and the test set data:
 ![Display Image](https://github.com/andyyhy/receipt_count_prediction/blob/main/results/test_data.png)
 
-## Visualization
-
-The final plot is displayed after model validation, which compares the actual receipt counts with the predictions made by the model.
-
 ## Running The Application
 
+![Display Image](https://github.com/andyyhy/receipt_count_prediction/blob/main/results/app.png)
 The application will be accessible at http://localhost:8000 in your web browser.
 
 ### Running Locally
@@ -67,6 +64,15 @@ Make sure you have docker installed
 
 -   Docker Pull: `docker pull andyyhy/receipt_count_prediction:latest`
 -   Docker run: `docker container run -d -p 8000:8000 -p 8001:8001 andyyhy/receipt_count_prediction:latest`
+
+### Usage
+
+Once the application is running:
+
+1. Navigate to the homepage.
+2. Enter a start and end date for the prediction range.
+3. Click the "Predict" button.
+4. The prediction results will be displayed on the page.
 
 ## Project Structure
 

@@ -28,9 +28,15 @@ The training process involves the following steps:
 5. Training the model for 1000 epochs.
 6. Saving the trained model parameters in `model/model.pth`.
 
+Visualization of the model prediction and the training set data:
+![Display Image](https://github.com/andyyhy/receipt_count_prediction/blob/main/results/training_data.png)
+
 ## Validation and Results
 
 After training, the model is validated on the test set. The validation loss is computed, and the results are plotted showing both the actual and predicted receipt counts over time.
+
+Visualization of the model prediction and the test set data:
+![Display Image](https://github.com/andyyhy/receipt_count_prediction/blob/main/results/test_data.png)
 
 ## Visualization
 

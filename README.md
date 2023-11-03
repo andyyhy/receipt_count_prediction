@@ -88,8 +88,8 @@ Make sure you have docker installed
 Once the application is running:
 
 1. Navigate to the homepage.
-2. Enter a start and end date for the prediction range.
-3. Click the "Predict" button.
+2. Enter a start and end date for the range days that you want to predict
+3. Click the "Submit" button.
 4. The prediction results will be displayed on the page.
 
 ## Project Structure
